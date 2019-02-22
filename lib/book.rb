@@ -1,7 +1,7 @@
 class Book
   GENRES = []
-  def initialize(title)
-    @title = title
+  def initialize(genre)
+    @genre = genre
     GENRES << self
   end
 end
